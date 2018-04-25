@@ -25,7 +25,7 @@ SINKS = {
         # ShellExecuteEx
         'sub.SHELL32.dll_ShellExecuteEx[AW]?(_[a-zA-Z0-9]+)?',
         # ShellExecute
-        'sub.SHELL32.dll_ShellExecuteEx[AW]?(_[a-zA-Z0-9]+)?',
+        'sub.SHELL32.dll_ShellExecute[AW]?(_[a-zA-Z0-9]+)?',
         
     ]
 }
