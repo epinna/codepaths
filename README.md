@@ -19,8 +19,10 @@ Different mode of operations can be specified through arguments.
 
 Arguments `--from` and `--to` accept both function name format used by radare2 (i.e. `sym.*`, `sub.*`, `entry0`) and addresses in the `0x` format. Customise what's considered notable `exec()`-like function in the `SINKS` variable in the script.
 
-Requirements
-------------
+Install
+-------
+
+**Requirements**
 
 Follow the official documentation on installing the latest version of  [radare2](https://github.com/radare/radare2).
 
@@ -34,6 +36,14 @@ Then install r2pipe binding for Python 3.
 
 ```
 $ sudo pip3 install r2pipe
+```
+
+**Install**
+
+Downloading the single python script is enough to start using codepaths.
+
+```
+$ wget https://raw.githubusercontent.com/epinna/codepaths/master/codepaths.py
 ```
 
 Examples
